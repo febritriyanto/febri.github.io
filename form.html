@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<head>
+	<title>SignINUP</title>
+	<style>
+	body {	background-image: url("background255.jpg"); background-repeat: no-repeat;background-size: 100%;}
+	form {font-family: Helvetica; margin: auto; width: 50%;}
+	h1 {font-family: FoughtKnight; font-size: 300%; text-align: center;}
+	</style>
+</head>	
+<body>
+<h1>KENCHAFORM</h1>
+<form action="dataformulir.php">
+	<table>
+		<tr>
+			<td>Nama Depan</td>
+			<td>: <input type="text" name="namadepan"></td>
+		</tr>
+		<tr>
+			<td>Nama Belakang</td>
+			<td>: <input type="text" name="namabelakang"></td>
+		</tr>
+		<tr>
+			<td>Nama depan dan Nama Belakang<br> (kalo ada nama tengah tambahin aja)</td>
+			<td>: <input type="text" name="namabelakang"> </td>
+		</tr>
+		<tr>
+			<td>Kata Sandi</td>
+			<td>: <input  type="password" name="kata sandi"></td>
+		</tr>
+		<tr>
+			<td>Jenis Kelamin</td>
+			<td><input type="radio" name="Jeniskelamin" value="laki-laki"> Laki-laki-laki
+				<input type="radio" name="Jeniskelamin" value="Perempuan"> Perempuan
+				<input type="radio" name="Jeniskelamin" value="Rahasia"> Rahaasia</td>
+		</tr>
+		<tr>
+			<td>Berat Badan</td>
+			<td>: <input type="text" name="beratbadan"></td> 
+		</tr>
+		<tr>
+			<td>Tinggi Badan</td>
+			<td>: <input type="text" name="tinggibadan"></td>
+		</tr>
+		<tr>
+			<td valign="top">Pendidikan yang pernah diselesaikan</td>
+			<td><input type="checkbox" name="jenjang pendidikan" value="Taman Kanak-kanak">Taman Kanak-kanak<br>
+				<input type="checkbox" name="jenjang pendidikan" value="Sekolah Dasar">Sekolah Dasar<br>
+				<input type="checkbox" name="jenjang pendidikan" value="Sekolah Menengah Pertama">Sekolah Menengah Pertama<br>
+				<input type="checkbox" name="jenjang pendidikan" value="Sekolah Menengah ">Sekolah Menengah Atas</td>
+		</tr>
+		<tr>
+			<td>Nama Universitas (harus UNY!!)</td>
+			<td>: <input type="radio" name="Universitas" value="UNY" checked> Universitas Negeri Yogyakarta</td>
+		</tr>
+		<tr>
+			<td valign="top">Fakultas</td>
+		<td><select name="Fakultas">
+				<option value="FIP">FIP</option>
+				<option value="FMIPA">FMIPA</option>
+				<option value="FBS">FBS</option>
+				<option value="FIS">FIS</option>
+				<option value="FT">FT</option>
+				<option value="FIK">FIK</option>
+				<option value="FE">FE</option>
+				<option value="PPS">PPS</option>
+				</select> </td>
+		</tr>
+		<tr>
+			<td>Alamat Email</td>
+			<td><input type="text" name="email"></td>
+		</tr>
+		<tr>
+			<td valign="top">Kesan pesan selama mengisi formulir ini</td>
+			<td><textarea name="kesanpesan" rows="6" cols="50"></textarea></td>
+		</tr>
+	</table>
+	<input type="submit" value="kirim">
+</form>
+</body>
+</html>
