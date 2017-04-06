@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<form action="dataformulir.php" methode="post">
+<fieldset>
+<legend>NAMA</legend>
+	<b>Nama Depan :</b> <br>
+	<input type="text" name="namadepan"> <br>
+	<b>Nama Belakang :</b> <br>
+	<input type="text" name="namabelakang"> <br>
+	<b>Nama depan dan Nama Belakang :</b> (kalo ada nama tengah tambahin aja)<br>
+	<input type="text" name="namabelakang"> <br>
+	<b>Kata Sandi</b><br>
+	<input  type="password" name="kata sandi">
+</fieldset>
+<fieldset>
+<legend>Informasi Tubuh</legend>
+	<b>Jenis Kelamin :</b> <br>
+	<input type="radio" name="Jeniskelamin" value="laki-laki"> Laki-laki-laki
+	<input type="radio" name="Jeniskelamin" value="Perempuan"> Perempuan
+	<input type="radio" name="Jeniskelamin" value="Rahasia"> Rahaasia<br>
+	<b>Berat Badan :</b> <br>
+	<input type="text" name="beratbadan"> <br>
+	<b>Tinggi Badan :</b> <br>
+	<input type="text" name="tinggibadan"> <br>
+</fieldset>
+<fieldset>
+<legend>Informasi Akademik</legend>
+	<b>Pendidikan yang pernah diselesaikan</b> <br>
+	<input type="checkbox" name="jenjang pendidikan" value="Taman Kanak-kanak">Taman Kanak-kanak<br>
+	<input type="checkbox" name="jenjang pendidikan" value="Sekolah Dasar">Sekolah Dasar<br>
+	<input type="checkbox" name="jenjang pendidikan" value="Sekolah Menengah Pertama">Sekolah Menengah Pertama<br>
+	<input type="checkbox" name="jenjang pendidikan" value="Sekolah Menengah ">Sekolah Menengah Atas<br><br>
+	<b>Pendidikan yang ditempuh</b> (pasti mahasiswa ya kan? kalo nggak yaudah)<br>
+	<b>Nama Universitas</b> (harus UNY) <br>
+	<input type="radio" name="Universitas" value="UNY" checked> Universitas Negeri Yogyakarta<br>
+	<b>Fakultas</b> <br>
+	<select name="Fakultas">
+	<option value="FIP">FIP</option>
+	<option value="FMIPA">FMIPA</option>
+	<option value="FBS">FBS</option>
+	<option value="FIS">FIS</option>
+	<option value="FT">FT</option>
+	<option value="FIK">FIK</option>
+	<option value="FE">FE</option>
+	<option value="PPS">PPS</option>
+	</select>
+</fieldset>
+<fieldset>
+<legend>Informasi Lain</legend>
+	<b>Alamat Email</b>
+	<input type="text" name="email"><br><br>
+	<b>Kesan pesan selama mengisi formulir ini</b><br>
+	<textarea name="kesanpesan" rows="6" cols="50"></textarea><br>
+</fieldset><br>
+	<input type="submit" value="kirim">
+	</form>
+</body>
+</html>
