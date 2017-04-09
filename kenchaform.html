@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<head>
+	<title>SignINUP</title>
+	<style>
+	body {	background-image: url("background255.jpg");	background-size: 100%;}
+	form {font-family: Helvetica; margin: auto; width: 50%;}
+	h1 {font-family: FoughtKnight; font-size: 300%; text-align: center;}
+	.inikolomdua { display: inline-block; width: 60%; }
+	.inikolomsatu {display: inline-block; margin-left: 3%; width: 30%; height: 100%; line-height: 100%;}
+	.inibaris {width: 100%; margin-top: 0.5%; margin-bottom: 0.5%; vertical-align: middle;}
+	.formulirisi .inikolomsatu {text-align: top;}
+	.formulirisi .inibaris:hover{background-color: rgb(0,204,204);}
+	</style>
+</head>	
+<body>
+<h1>KENCHAFORM</h1>
+<div class="formulirisi">
+<form action oninput="x.value=parseInt(beratbadan.value)">
+	<div class="inibaris">
+			<div class="inikolomsatu">Nama Depan</div>
+			<div class="inikolomdua">: <input type="text" name="namadepan"></div>
+	</div>
+	<div class="inibaris">
+			<div class="inikolomsatu">Nama Belakang</div>
+			<div class="inikolomdua">: <input type="text" name="namabelakang"></div>
+	</div>
+	<div class="inibaris">
+			<div class="inikolomsatu">Nama depan dan Nama Belakang</div>
+			<div class="inikolomdua">: <input type="text" name="namabelakang"> </div>
+	</div>
+	<div class="inibaris">
+			<div class="inikolomsatu">Kata Sandi</div>
+			<div class="inikolomdua">: <input  type="password" name="kata sandi"></div>
+	</div>
+	<div class="inibaris">
+			<div class="inikolomsatu">Jenis Kelamin</div>
+			<div class="inikolomdua"><input type="radio" name="Jeniskelamin" value="laki-laki"> Laki-laki-laki
+				<input type="radio" name="Jeniskelamin" value="Perempuan"> Perempuan
+				<input type="radio" name="Jeniskelamin" value="Rahasia"> Rahaasia</div>
+	</div>
+	<div class="inibaris">
+			<div class="inikolomsatu">Berat Badan</div>
+			<div class="inikolomdua">: 0 Kg <input type="range" id="beratbadan" name="beratbadan" value="0" max="150"> 150 Kg  (
+			<output name="x" for="beratbadan">0</output> Kg)</div> 
+	</div>
+	<div class="inibaris">
+			<div class="inikolomsatu">Tinggi Badan</div>
+			<div class="inikolomdua">: <input type="text" name="tinggibadan"></div>
+	</div>
+	<div class="inibaris">
+			<div class="inikolomsatu">Pendidikan yang pernah diselesaikan</div>
+			<div class="inikolomdua"><input type="checkbox" name="jenjang pendidikan" value="Taman Kanak-kanak">Taman Kanak-kanak<br>
+				<input type="checkbox" name="jenjang pendidikan" value="Sekolah Dasar">Sekolah Dasar<br>
+				<input type="checkbox" name="jenjang pendidikan" value="Sekolah Menengah Pertama">Sekolah Menengah Pertama<br>
+				<input type="checkbox" name="jenjang pendidikan" value="Sekolah Menengah ">Sekolah Menengah Atas</div>
+	</div>
+	<div class="inibaris">
+			<div class="inikolomsatu">Nama Universitas</div>
+			<div class="inikolomdua">: <input type="radio" name="Universitas" value="UNY" checked> Universitas Negeri Yogyakarta
+				<input type="radio" name="Universitas" value="UNY2"> UNY
+			</div>
+	</div>
+	<div class="inibaris">
+			<div class="inikolomsatu">Fakultas</div>
+		<div class="inikolomdua"><select name="Fakultas">
+				<option value="FIP">FIP</option>
+				<option value="FMIPA">FMIPA</option>
+				<option value="FBS">FBS</option>
+				<option value="FIS">FIS</option>
+				<option value="FT">FT</option>
+				<option value="FIK">FIK</option>
+				<option value="FE">FE</option>
+				<option value="PPS">PPS</option>
+				</select> </div>
+	</div>
+	<div class="inibaris">
+			<div class="inikolomsatu">Alamat Email</div>
+			<div class="inikolomdua"><input type="text" name="email"></div>
+	</div>
+	<div class="inibaris">
+			<div class="inikolomsatu">Gambar Profil</div>
+			<div class="inikolomdua"><input type="file" placeholder="Fullname">
+			<button type="button" onclick="alert('Gambar berhasil diupload!')">Upload!</button></div>
+	</div>
+	<div class="inibaris">
+			<div class="inikolomsatu">Kesan pesan selama mengisi formulir ini</div>
+			<div class="inikolomdua"><textarea name="kesanpesan" rows="6" cols="50"></textarea></div>
+	</div>
+	<input type="submit" value="kirim">
+</form>
+</body>
+</html>
