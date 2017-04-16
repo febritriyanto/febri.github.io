@@ -10,6 +10,7 @@
     - dentiano nugroho rahmadani
     - ghina junia syasmi
     - arif puji nugroho
+    - Helmi arghya santosa
     
 3. banyaknya total waktu yang dibutuhkan untuk membuat portfolio:
     25 jam.
