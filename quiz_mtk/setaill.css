@@ -1,0 +1,154 @@
+
+body {
+	margin: 0%;
+	font-family: Helvetica;
+	color: white;
+	text-align: center;
+	background-image: url("background.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed; 
+}
+
+
+.tombolmulai {
+	text-decoration: none;
+	padding: 14px 25px;
+	text-align: center;
+	display: inline-block;
+	font-family: helvetica;
+	font-weight: bolder;
+	color: #d63602;
+	background: white;
+	margin-left:3px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+ 	
+}
+
+.tombolmulai:hover {
+	background: #d63602;
+	color: white;
+}
+
+.tombolmulai2 {
+	text-decoration: none;
+	padding: 14px 25px;
+	text-align: center;
+	display: inline-block;
+	font-family: helvetica;
+	font-weight: bolder;
+	color: #d63602;
+	background: white;
+	position: relative;
+	left: 250px;
+	top: 80px;
+ 	
+}
+
+.tombolmulai2:hover {
+	background: #d63602;
+	color: white;
+}
+
+
+.lis {
+	margin-top: 0%;
+	text-align: center;
+}
+
+.mulai {
+    height: 30%;
+   position: relative;
+	margin-top: 10%;
+
+
+}
+
+.ukuranikon {
+	
+	padding-bottom: 5%;
+	height:200px;
+	
+}
+.materi {
+	display: none;
+	font-size: 200%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+.masukmateri {
+	margin-top: 2%; 
+	font-size: 50%;
+}
+
+.menu {
+	font-size: 150%;
+	border: 2px solid white;
+	width: 250px;
+	margin:auto; 
+	background: white;
+	color: black;
+}
+
+.kembali {
+	text-align: right;
+}
+
+.wdhsoal {
+	font-size: 5vmin;
+	border: 5px solid white;
+	width: 600px;
+	position: relative;
+	margin: 25px;
+	float: left;
+
+}
+
+.wdhhasil {
+	font-size: 5vmin;
+	border: 5px solid white;
+	width: 600px;
+	position: relative;
+	float: left;
+	left: 25%;
+}
+
+.soalnya {
+	padding: 7px;
+}
+
+.inputan {
+	background-color: rgba(255,255,255,0.8);
+	padding: 10px;
+	height: 20px;
+	font-size: 45px;
+	width: 300px;
+	position: relative;
+	text-align: center;
+	color: #d63602;
+}
+
+h1 {
+	font-size: 6vmin;
+}
+
+#akhir {
+	text-decoration: none;
+	padding: 14px 25px;
+	text-align: center;
+	display: inline-block;
+	font-family: helvetica;
+	font-weight: bolder;
+	color: #d63602;
+	background: white;
+	margin-left:3px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+#akhir:hover {
+	background: #d63602;
+	color: white;
+}
